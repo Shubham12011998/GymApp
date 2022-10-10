@@ -1,0 +1,10 @@
+.row {
+  padding-left: 20px;
+  width: 55%;
+
+  position: fixed;
+}
+h3 {
+  color: orange;
+  margin-left: 300px;
+}

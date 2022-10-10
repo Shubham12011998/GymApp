@@ -1,0 +1,52 @@
+<div class="banner">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="text-center">
+          <h3>
+            <b><i>REGISTRATION FORM</i></b>
+          </h3>
+          <h5><b>🤍Grab Some Offers🤍</b></h5>
+          <hr />
+        </div>
+        <form #signup="ngForm" (ngSubmit)="submit(signup)">
+          <!-- <form [formGroup]="signupForm" (ngSubmit)="signup()"> -->
+          <div class="mb-12">
+            <label class="form-label">Name</label>
+            <input placeholder="Full Name" type="name" class="form-control" />
+          </div>
+          <div class="mb-12">
+            <label class="form-label">Mobile Number</label>
+            <input
+              placeholder="Mobile Number"
+              type="MobileNumber"
+              class="form-control"
+            />
+          </div>
+          <div class="mb-12">
+            <label class="form-label">Email Id</label>
+            <input placeholder="mailId" type="email" class="form-control" />
+          </div>
+          <div class="mb-12">
+            <label class="form-label"> Create Password</label>
+            <input
+              placeholder="Password"
+              type="password"
+              class="form-control"
+            />
+          </div>
+          <div class="mb-12">
+            <label class="form-label">Confirm Password</label>
+            <input
+              placeholder="Re-Password"
+              type="password"
+              class="form-control"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">SignUp</button>
+        </form>
+        <a routerLink="">Already Member then Click to Login!</a>
+      </div>
+    </div>
+  </div>
+</div>

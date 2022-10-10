@@ -1,0 +1,85 @@
+.banner {
+  /*background-image: url("../../../assets/img/gymimg.jpg");*/
+  background-image: url(https://images.unsplash.com/photo-1542766788-a2f588f447ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.637));
+}
+.banner h1 {
+  color: khaki;
+  font-family: "Times New Roman";
+  font-size: 50px;
+  padding-left: 60px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  top: 30%;
+  position: absolute;
+}
+.banner span {
+  color: blue;
+  font-size: 60px;
+}
+.banner .par {
+  padding-left: 60px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  color: springgreen;
+  top: 50%;
+  position: absolute;
+  font-size: larger;
+}
+.card {
+  background-image: url(https://media.istockphoto.com/photos/the-light-from-the-window-shines-on-the-white-wall-the-shadow-from-picture-id1302773734?b=1&k=20&m=1302773734&s=170667a&w=0&h=1u0hqqG-gqFxY-wVoN_gmw5mESwlDAU0PD78yHNH8yI=);
+  /* background-position: center;
+ background-size: cover; */
+  /* background-color: black; */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.637));
+  margin-top: 15px;
+  border: 1px solid black;
+  width: 380px;
+  padding: 25px;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
+.col-lg-4 a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.col-lg-4 i:hover {
+  color: blueviolet;
+}
+#bts {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: orangered;
+  border-radius: 6px;
+}
+#bts:hover {
+  background-color: whitesmoke;
+}
+/* #btS::before{
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 200%;
+ height: 100%;
+ background: linear-gradient(115deg, #4fcf70, #fad648,#a767e5, #12bcfe, #44ce7b);
+background-size: 50% 100%;
+border-radius: inherit;
+}
+#bts:hover::before{
+ animation: animate_border .75s linear infinite;
+}
+@keyframes animate_border {
+ to{
+     transform: translateX(-50%);
+ }
+ 
+} */

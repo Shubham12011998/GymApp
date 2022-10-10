@@ -1,0 +1,7 @@
+<div class="row" style="" *ngIf="gym" (click)="onSelect()">
+  <div class="col-md-6">
+    <img [src]="gym.imageUrl" [alt]="gym.name" width="300px" height="200px" />
+    <hr />
+  </div>
+  <h4>{{ gym.name }}</h4>
+</div>

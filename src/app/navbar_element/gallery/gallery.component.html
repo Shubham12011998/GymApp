@@ -1,0 +1,7 @@
+<div class="gallery-lightbox-container" id="gallary">
+  <div class="gallery">
+    <div *ngFor="let data of galleryData; let i = index" class="gallery-img">
+      <img [src]="data.imageSrc" [alt]="data.imageAlt" />
+    </div>
+  </div>
+</div>

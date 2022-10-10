@@ -1,0 +1,27 @@
+.body {
+  background-image: url(https://images.unsplash.com/photo-1553531889-65d9c41c2609?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8OHx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  text-align: center;
+}
+#abc {
+  text-align: center;
+}
+.row {
+  padding-left: 150px;
+}
+#row1 {
+  padding-top: 200px;
+}
+#row2,
+#row3 {
+  padding-top: 40px;
+}
+.card {
+  background-color: aquamarine;
+}

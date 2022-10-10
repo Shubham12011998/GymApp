@@ -1,0 +1,18 @@
+<div class="row" *ngIf="service">
+  <div class="col-md-12">
+    <div class="card">
+      <img
+        [src]="service.imageUrl"
+        [alt]="service.name"
+        class="card-img-top"
+        height="400px"
+      />
+      <div class="card-body">
+        <h3>
+          <b>{{ service.name }}</b>
+        </h3>
+        <p>{{ service.about }}</p>
+      </div>
+    </div>
+  </div>
+</div>

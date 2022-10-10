@@ -1,0 +1,9 @@
+<ul class="list-group">
+  <h3>
+    <b><i>Click On Service For More Details</i></b>
+  </h3>
+  <app-servicelist
+    *ngFor="let serviceEl of services"
+    [service]="serviceEl"
+  ></app-servicelist>
+</ul>

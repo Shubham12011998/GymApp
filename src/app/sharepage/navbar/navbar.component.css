@@ -1,0 +1,33 @@
+.navbar-light .navbar-nav .nav-link.active-link {
+  color: var(--primary-color);
+  text-decoration: navajowhite;
+}
+
+.navbar-brand {
+  color: orangered;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+nav {
+  background-color: yellowgreen;
+}
+ul li {
+  margin-left: 60px;
+}
+ul li a {
+  text-decoration: solid;
+  color: black;
+  font-weight: 600;
+}
+nav div h2 {
+  color: brown;
+  font-weight: 1000;
+}
+#nav {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}

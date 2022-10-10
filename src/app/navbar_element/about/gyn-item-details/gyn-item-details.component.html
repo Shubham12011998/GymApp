@@ -1,0 +1,13 @@
+<div class="card" *ngIf="gym">
+  <img
+    class="card-img-top"
+    [src]="gym.imageUrl"
+    [alt]="gym.name"
+    height="400px"
+  />
+  <div class="card-body text-center" style="background-color: grey">
+    <h2>{{ gym.name }}</h2>
+
+    <p style="background-color: yellow">{{ gym.about }}</p>
+  </div>
+</div>
